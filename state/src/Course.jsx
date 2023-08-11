@@ -4,8 +4,13 @@ import Bootstrap from './assets/bootstrap5.png'
 import CSharp from './assets/ccsharp.png'
 import KompleWeb from './assets/kompleweb.jpg'
 
-export const Course = () => {
+
+
+export const Course = ({ courseName }) => {
+  console.log(courseName)
   return (
-    <div>Course</div>
+    <div>
+      <img src={Angular} alt="" />
+    </div>
   )
 }
