@@ -19,11 +19,11 @@ export function App() {
   })
 
   return (
-    <>
+    <div className="App">
       <button onClick={handleClick}>Add a Course</button>
-      <div>
+      <div className="courseList">
         {courseList}
       </div>
-    </>
+    </div>
   )
 }
